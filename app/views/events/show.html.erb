@@ -1,0 +1,8 @@
+<% if policy(@event).destroy? %>
+	<%= link_to 'Delete', event_path(@event), method: :delete %>
+<% end %>
+
+<div>
+	<%= @event.name %><br>
+	<%= @event.starting_date.strftime("%Y/%m/%d")%>
+</div>

@@ -1,0 +1,17 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+    name: My first event
+    starting_date: 2015-10-14 00:31:24
+    account: one
+
+two:
+    name: My second event
+    starting_date: 2015-10-14 00:31:24
+    account: one
+  
+three:
+    name: Random event
+    starting_date: 2015-10-14 00:31:24
+    account: two

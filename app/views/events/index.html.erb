@@ -1,0 +1,8 @@
+<% @events.each do |event| %>
+	
+	<div>
+		<%= event.name %><br>
+		<%= event.starting_date.strftime("%Y/%m/%d")%>
+	</div>
+	
+<% end %>
